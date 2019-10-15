@@ -1,0 +1,7 @@
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\obj\Debug\ex5.csprojAssemblyReference.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\obj\Debug\ex5.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\bin\Debug\ex5.exe.config
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\bin\Debug\ex5.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\bin\Debug\ex5.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\obj\Debug\ex5.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha04\ex5\ex5\obj\Debug\ex5.pdb

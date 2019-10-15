@@ -1,0 +1,7 @@
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\bin\Debug\ConsoleAppEX3.exe.config
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\bin\Debug\ConsoleAppEX3.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\bin\Debug\ConsoleAppEX3.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\obj\Debug\ConsoleAppEX3.csprojAssemblyReference.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\obj\Debug\ConsoleAppEX3.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\obj\Debug\ConsoleAppEX3.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha02\ConsoleAppEX3\ConsoleAppEX3\obj\Debug\ConsoleAppEX3.pdb

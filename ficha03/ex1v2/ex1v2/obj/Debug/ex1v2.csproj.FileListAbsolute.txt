@@ -1,0 +1,7 @@
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\bin\Debug\ex1v2.exe.config
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\bin\Debug\ex1v2.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\bin\Debug\ex1v2.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\obj\Debug\ex1v2.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\obj\Debug\ex1v2.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\obj\Debug\ex1v2.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha03\ex1v2\ex1v2\obj\Debug\ex1v2.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\obj\Debug\ex9.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\bin\Debug\ex9.exe.config
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\bin\Debug\ex9.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\bin\Debug\ex9.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\obj\Debug\ex9.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha01\ex9\ex9\obj\Debug\ex9.pdb
