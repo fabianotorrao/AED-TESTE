@@ -1,0 +1,6 @@
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\obj\Debug\ex5 v2.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\bin\Debug\ex5 v2.exe.config
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\bin\Debug\ex5 v2.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\bin\Debug\ex5 v2.pdb
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\obj\Debug\ex5 v2.exe
+C:\Users\fabia\Desktop\esmad\AED\ficha06\ex5 v2\ex5 v2\obj\Debug\ex5 v2.pdb
