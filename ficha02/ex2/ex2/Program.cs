@@ -24,6 +24,10 @@ namespace ex2
                 Console.WriteLine("***************************************");
                 Console.SetCursorPosition(76, 11);
                 opcao = Convert.ToChar( Console.ReadLine().ToUpper());
+                if (opcao=='N')
+                {
+                    Environment.Exit(0);
+                }
 
 
             }
@@ -80,7 +84,7 @@ namespace ex2
                     Console.SetCursorPosition(45, 14);
                     Console.Write("         GAME OVER!            ");
                     Console.ReadKey();
-                    Environment.Exit(0);
+                    
                 }
                 Console.ReadKey();
             }
