@@ -30,6 +30,7 @@ namespace ex2
                 Console.SetCursorPosition(55, 10);
                 Console.Write("Temperatura");
                 Console.SetCursorPosition(14, 11);
+                int ct = 0, sum = 0,max=0,min=50;
                 Console.Write("-------------------------------------------------------");
                 var sr = File.ReadAllLines(filepath);
                 foreach (var line in sr)
@@ -41,8 +42,20 @@ namespace ex2
                     Console.Write(content[1]);
                     Console.SetCursorPosition(55, y);
                     Console.Write(content[2]);
+                    sum = sum + Convert.ToInt16(content[2]);
+                    ct++;
+                    if (max< Convert.ToInt16(content[2]))
+                    {
+                        max = Convert.ToInt16(content[2]);
+                    }
+                    if(Convert.ToInt16(content[2])<min)
+                    {
+                        min = Convert.ToInt16(content[2]);
+                    }
                     y++;
                 }
+                Console.SetCursorPosition(15, 8);
+                Console.Write("Máx: {0} Min: {1} Média: {2}", max, min, (sum / ct).ToString("##,##"));
                 Console.ReadKey();
             }
         }
