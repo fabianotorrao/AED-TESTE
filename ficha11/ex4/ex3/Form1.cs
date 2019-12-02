@@ -77,7 +77,7 @@ namespace ex3
         {
             var lines = File.ReadAllLines(file_path);
             bool decid = true;
-            foreach (var line in lines)
+            foreach (var line in lines.Reverse())
             {
                 string[] line_splited = line.Split(';');
                 if (n_estudante_txt.Value.ToString() == line_splited[0] && mov == line_splited[2])

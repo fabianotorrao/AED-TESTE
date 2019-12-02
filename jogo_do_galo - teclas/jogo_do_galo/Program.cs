@@ -89,7 +89,7 @@ namespace jogo_do_galo
                 }
                 if (tabuleiro[2, 0] != null)
                 {
-                    if ((tabuleiro[0, 2].Equals(tabuleiro[1, 1]) && tabuleiro[0, 2].Equals(tabuleiro[2, 0])) || (tabuleiro[2, 0].Equals(tabuleiro[2, 1]) && tabuleiro[2, 0].Equals(tabuleiro[2, 2])))
+                    if ((tabuleiro[0, 2].Equals(tabuleiro[1, 1]) && tabuleiro[0, 2].Equals(tabuleiro[2, 0])) //tirar||(tabuleiro[2, 0].Equals(tabuleiro[2, 1]) && tabuleiro[2, 0].Equals(tabuleiro[2, 2])))
                     {
                         if (tabuleiro[2, 0] == "X")
                             return -3;
@@ -155,9 +155,57 @@ namespace jogo_do_galo
         public static bool jogada(int i, string[,] tabuleiro, string[] players)
         {
             Console.SetCursorPosition(10, 10);
-            Console.Write("Insira as coordenadas (1,1 até 3,3) " + players[i] + "(X Y) : ");
-            var coord = Console.ReadLine().Split(' ');
-            if (Convert.ToInt16(coord[0])>3||Convert.ToInt16(coord[1])>3)
+            int x = 2, y = 2;
+            Console.Write("Insira as coordenadas (1,1 até 3,3) " + players[i] + "(Y X) = {0} {1} ", y,x);
+            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            
+            while (keyInfo.Key != ConsoleKey.Enter)
+            {
+                switch (keyInfo.Key)
+                {
+                    case ConsoleKey.DownArrow:
+                        if (y <= 2)
+                        {
+                            y++;
+                        }
+
+                        break;
+                    case ConsoleKey.UpArrow:
+                        
+                        if (y > 1)
+                        {
+                            y--;
+                        }
+
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        if (x >= 2)
+                        {
+                            x--;
+                        }
+
+                        break;
+                    case ConsoleKey.RightArrow:
+                        
+                        if (x <= 2)
+                        {
+                            x++;
+                        }
+
+                        break;
+                }
+                Console.SetCursorPosition(10, 10);
+                Console.Write("Insira as coordenadas (1,1 até 3,3) " + players[i] + "(X Y) = {0} {1} ",y,x);
+                keyInfo = Console.ReadKey();
+            }
+
+
+
+
+            //jogada normal por coordenadas
+            
+            
+            if (x>3||y>3)
             {
                 Console.Clear();
                 Console.SetCursorPosition(10, 10);
@@ -166,12 +214,12 @@ namespace jogo_do_galo
                 return false;
             }
             Console.Clear();
-            if (tabuleiro[Convert.ToInt16(coord[0]) - 1, Convert.ToInt16(coord[1]) - 1] is null)
+            if (tabuleiro[y - 1, x- 1] is null)
             {
                 if (i == 0)
-                    tabuleiro[Convert.ToInt16(coord[0]) - 1, Convert.ToInt16(coord[1]) - 1] = "O";
+                    tabuleiro[y - 1, x- 1] = "O";
                 else
-                    tabuleiro[Convert.ToInt16(coord[0]) - 1, Convert.ToInt16(coord[1]) - 1] = "X";
+                    tabuleiro[y - 1, x- 1] = "X";
                 return true;
             }
             else

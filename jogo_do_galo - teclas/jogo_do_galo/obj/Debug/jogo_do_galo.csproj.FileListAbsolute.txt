@@ -5,3 +5,10 @@ C:\Users\fabia\Desktop\esmad\AED\jogo_do_galo\jogo_do_galo\obj\Debug\jogo_do_gal
 C:\Users\fabia\Desktop\esmad\AED\jogo_do_galo\jogo_do_galo\obj\Debug\jogo_do_galo.csproj.CoreCompileInputs.cache
 C:\Users\fabia\Desktop\esmad\AED\jogo_do_galo\jogo_do_galo\obj\Debug\jogo_do_galo.exe
 C:\Users\fabia\Desktop\esmad\AED\jogo_do_galo\jogo_do_galo\obj\Debug\jogo_do_galo.pdb
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\bin\Debug\jogo_do_galo.exe.config
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\bin\Debug\jogo_do_galo.exe
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\bin\Debug\jogo_do_galo.pdb
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\obj\Debug\jogo_do_galo.csprojAssemblyReference.cache
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\obj\Debug\jogo_do_galo.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\obj\Debug\jogo_do_galo.exe
+C:\Users\fabia\Desktop\esmad\AED\repos\jogo_do_galo - teclas\jogo_do_galo\obj\Debug\jogo_do_galo.pdb
