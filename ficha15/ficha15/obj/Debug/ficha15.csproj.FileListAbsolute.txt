@@ -1,0 +1,10 @@
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\bin\Debug\ficha15.exe.config
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\bin\Debug\ficha15.exe
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\bin\Debug\ficha15.pdb
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.csprojAssemblyReference.cache
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.Form1.resources
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.Properties.Resources.resources
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.csproj.GenerateResource.cache
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.csproj.CoreCompileInputs.cache
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.exe
+C:\Users\fabia\Desktop\esmad\AED\repos\ficha15\ficha15\obj\Debug\ficha15.pdb

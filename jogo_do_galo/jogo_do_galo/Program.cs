@@ -31,6 +31,7 @@ namespace jogo_do_galo
                     while (val == false)
                     {
                         val = jogada(jg, tabuleiro, players);
+                        listar(tabuleiro);
                     }
                     listar(tabuleiro);
                     jg = variar_player(jg);
@@ -53,7 +54,7 @@ namespace jogo_do_galo
                         stat = 'V';
 
                     }
-                    else if (round == -1)
+                    else if (round == 9)
                     {
                         Console.Clear();
                         Console.SetCursorPosition(10, 10);
@@ -74,12 +75,12 @@ namespace jogo_do_galo
         }
         public static int vencedor_verificacao(string [,] tabuleiro,string [] players,int round)
         {
-            if (round<=9)
+            if (round <= 9)
             {
                 round++;
-                if ((tabuleiro[0, 0] != null))
+                if ((tabuleiro[0, 0] != null) && (tabuleiro[0, 1] != null) && (tabuleiro[0, 2] != null))
                 {
-                    if ((tabuleiro[0, 0].Equals(tabuleiro[0, 1]) && tabuleiro[0, 0].Equals(tabuleiro[0, 2])) || (tabuleiro[0, 0].Equals(tabuleiro[1, 1]) && tabuleiro[0, 0].Equals(tabuleiro[2, 2])) || (tabuleiro[0, 0].Equals(tabuleiro[1, 0]) && tabuleiro[0, 0].Equals(tabuleiro[2, 0])))
+                    if ((tabuleiro[0, 0].Equals(tabuleiro[0, 1]) && tabuleiro[0, 0].Equals(tabuleiro[0, 2])))
                     {
                         if (tabuleiro[0, 0] == "X")
                             return -3;
@@ -87,9 +88,30 @@ namespace jogo_do_galo
                             return -2;
                     }
                 }
-                if (tabuleiro[2, 0] != null)
+                if ((tabuleiro[0, 0] != null) && (tabuleiro[1, 0] != null) && (tabuleiro[2, 0] != null))
                 {
-                    if ((tabuleiro[0, 2].Equals(tabuleiro[1, 1]) && tabuleiro[0, 2].Equals(tabuleiro[2, 0])) || (tabuleiro[2, 0].Equals(tabuleiro[2, 1]) && tabuleiro[2, 0].Equals(tabuleiro[2, 2])))
+                    if ((tabuleiro[0, 0].Equals(tabuleiro[1, 0]) && tabuleiro[0, 0].Equals(tabuleiro[2, 0])))
+                    {
+                        if (tabuleiro[0, 0] == "X")
+                            return -3;
+                        else
+                            return -2;
+                    }
+                }
+
+                if ((tabuleiro[0, 2] != null) && (tabuleiro[1, 1] != null) && tabuleiro[2, 0] != null)
+                {
+                    if ((tabuleiro[0, 2].Equals(tabuleiro[1, 1]) && tabuleiro[0, 2].Equals(tabuleiro[2, 0])))
+                    {
+                        if (tabuleiro[0, 2] == "X")
+                            return -3;
+                        else
+                            return -2;
+                    }
+                }
+                if ((tabuleiro[2, 0] != null) && (tabuleiro[2, 1] != null) && (tabuleiro[2, 2] != null))
+                {
+                    if ((tabuleiro[2, 0].Equals(tabuleiro[2, 1]) && tabuleiro[2, 0].Equals(tabuleiro[2, 2])))
                     {
                         if (tabuleiro[2, 0] == "X")
                             return -3;
@@ -97,29 +119,52 @@ namespace jogo_do_galo
                             return -2;
                     }
                 }
-                if(tabuleiro[0,2]!=null)
+
+                if ((tabuleiro[0, 2] != null) && (tabuleiro[1, 2] != null) && (tabuleiro[2, 2] != null))
                 {
-                    if (tabuleiro[0,2].Equals(tabuleiro[1,2])&& tabuleiro[0, 2].Equals(tabuleiro[2,2]))
+                    if (tabuleiro[0, 2].Equals(tabuleiro[1, 2]) && tabuleiro[0, 2].Equals(tabuleiro[2, 2]))
                     {
-                        if (tabuleiro[0,2] == "X")
+                        if (tabuleiro[0, 2] == "X")
                             return -3;
                         else
                             return -2;
                     }
                 }
-                if(tabuleiro[1,1]!=null)
+                if ((tabuleiro[1, 1] != null) && (tabuleiro[0, 1] != null) && (tabuleiro[2, 1] != null))
                 {
-                    if ((tabuleiro[1,1].Equals(tabuleiro[0,1])&&tabuleiro[1,1].Equals(tabuleiro[2,1]))||(tabuleiro[1,1].Equals(tabuleiro[1,0])&&tabuleiro[1,1].Equals(tabuleiro[1,2])))
+                    if ((tabuleiro[1, 1].Equals(tabuleiro[0, 1]) && tabuleiro[1, 1].Equals(tabuleiro[2, 1])))
                     {
-                        if (tabuleiro[1,1] == "X")
+                        if (tabuleiro[1, 1] == "X")
                             return -3;
                         else
                             return -2;
                     }
                 }
+                if ((tabuleiro[1, 1] != null) && (tabuleiro[1, 0] != null) && (tabuleiro[1, 2] != null))
+                {
+                    if ((tabuleiro[1, 1].Equals(tabuleiro[1, 0]) && tabuleiro[1, 1].Equals(tabuleiro[1, 2])))
+                    {
+                        if (tabuleiro[1, 1] == "X")
+                            return -3;
+                        else
+                            return -2;
+                    }
+                }
+                if ((tabuleiro[0, 0] != null) && (tabuleiro[1, 1] != null) && (tabuleiro[2, 2] != null))
+                {
+                    if ((tabuleiro[0, 0].Equals(tabuleiro[1, 1]) && tabuleiro[0, 0].Equals(tabuleiro[2, 2])))
+                    {
+                        if (tabuleiro[0, 0] == "X")
+                            return -3;
+                        else
+                            return -2;
+                    }
+                }
+
+
             }
-            
-            
+
+
             return round;
 
 
@@ -180,6 +225,7 @@ namespace jogo_do_galo
                 Console.SetCursorPosition(10, 10);
                 Console.Write("Coordenada ocupada! Tente novamente");
                 Console.ReadKey();
+
                 return false;
             }
             
